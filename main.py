@@ -121,12 +121,12 @@ loaded_model.compile(loss='categorical_crossentropy',
                      optimizer='adam', metrics=['accuracy'])
 
 
-with open('C:/Users/friha/MyWork/project_2cs_backend/FacialEmotion-Recognition/Project/Models/new_arch.json', 'r') as json_file:
+with open('C:/Users/friha/MyWork/project_2cs_backend/FacialEmotion-Recognition/Project/Models/emotion_arch.json', 'r') as json_file:
     emo_model_json = json_file.read()
     emo_model = model_from_json(emo_model_json)
 
 emo_model.load_weights(
-    'C:/Users/friha/MyWork/project_2cs_backend/FacialEmotion-Recognition/Project/Models/new_weights.h5')
+    'C:/Users/friha/MyWork/project_2cs_backend/FacialEmotion-Recognition/Project/Models/emotion_weights.h5')
 
 
 emo_model.compile(loss='categorical_crossentropy',
