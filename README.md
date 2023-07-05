@@ -1,8 +1,8 @@
-## Real-Time Facial Detection and Emotion Analysis System:
+# Real-Time Facial Detection and Emotion Analysis System:
 This repository contains the code and resources for an intelligent system designed to detect and recognize faces in real-time, with a particular focus on analyzing the emotional state of ESI (Emotional and Social Intelligence) students. The aim of this project is to provide a tool that can assist in understanding and monitoring the emotional well-being of individuals, especially in educational settings.
 
 
-# Introduction:
+## Introduction:
 The Real-Time Facial Detection and Emotion Analysis System is built upon advanced computer vision techniques and machine learning algorithms. It leverages state-of-the-art deep learning models to detect and recognize faces in real-time video streams. Additionally, the system utilizes facial expression analysis to infer the emotional states of ESI students, helping educators and researchers gain valuable insights into their well-being.
 
 The backend of the system is implemented using FastAPI, a modern, fast (high-performance), web framework for building APIs with Python. It incorporates two pre-trained models: face_classifier.h5 and emotion_arch.h5. The face_classifier.h5 model is responsible for face detection and recognition, while the emotion_arch.h5 model analyzes facial expressions to determine the emotional states of individuals.
