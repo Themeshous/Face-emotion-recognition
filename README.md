@@ -14,3 +14,24 @@ In our facial recognition model approach, we leveraged the VGG Face model to obt
 For the emotion analysis model, we first started by splitting the original dataset into a new one based on emotions to create a dataset with five emotions: angry, happy, neutral, sad, and tired. We then pass the images through our emotion classifier, which takes as input an image of size (224,224,1) with one channel (gray images). We apply convolutional layers for feature extraction, followed by a flatten layer, and finally a fully connected layer. This architecture allows the model to learn the distinctive features associated with different emotions and make predictions based on the input image.
 
 By combining facial recognition and emotion analysis models, our system can provide real-time insights into the emotional states of individuals, allowing for personalized and targeted interventions in educational and research settings.
+
+## Features:
+Real-time face detection using the Haar Cascade classifier and MTCNN.
+Facial recognition for identifying known individuals in the video stream using the VGG Face model.
+Emotion analysis to determine the emotional states of ESI students.
+Integration with ESI student profiles for personalized analysis.
+Real-time frame capturing using a web interface developed with React.
+Websockets for seamless communication between the web interface and the backend system.
+FastAPI framework for building high-performance APIs.
+Utilization of pre-trained models face_classifier.h5 and emotion_arch.h5.
+Extraction of face embeddings using the VGG-Face model.
+Application of image augmentation techniques (flip, rotate, zoom, translate) to increase dataset diversity.
+
+## Installation:
+To set up the Real-Time Facial Detection and Emotion Analysis System, please follow the instructions below:
+
+Clone this repository to your local machine using the following command:
+git clone https://github.com/your-username/your-repo.git
+
+Download the pre-trained models for face detection (face_classifier.h5), facial recognition, and emotion analysis (emotion_arch.h5) from the following links:
+[Models:](https://drive.google.com/drive/folders/16yoMusfFiSWHoUgh9I83-1LcvuxuNi_U)
