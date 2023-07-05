@@ -31,7 +31,18 @@ Application of image augmentation techniques (flip, rotate, zoom, translate) to 
 To set up the Real-Time Facial Detection and Emotion Analysis System, please follow the instructions below:
 
 Clone this repository to your local machine using the following command:
-git clone https://github.com/your-username/your-repo.git
+
+git clone https://github.com/Themeshous/Face-emotion-recognition
 
 Download the pre-trained models for face detection (face_classifier.h5), facial recognition, and emotion analysis (emotion_arch.h5) from the following links:
-[Models:](https://drive.google.com/drive/folders/16yoMusfFiSWHoUgh9I83-1LcvuxuNi_U)
+
+[Models and architectures](https://drive.google.com/drive/folders/16yoMusfFiSWHoUgh9I83-1LcvuxuNi_U)
+
+Start the web interface by navigating to the /src directory and running the following commands:
+
+npm start 
+
+Start the FastApi backend by running : 
+
+uvicorn main:app --reload
+
